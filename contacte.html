@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Adrien Stier</title>
+  <script src="theme-init.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="index.html">
+      <div class="nav-logo">ADRIEN STIER</div>
+    </a>
+    <div class="recherche">
+      <span class="marge">|</span>recherche un stage de 3 mois a partir de mars 2027
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="apropos.html">À propos</a></li>
+      <li><a href="realisations.html">Réalisations</a></li>
+      <li><a href="contacte.html" class="active">Contact</a></li>
+      <li class="nav-toggle-item">
+        <button class="theme-toggle" id="themeToggle" aria-label="Changer le thème">
+          <svg class="icon-sun" viewBox="0 0 24 24" stroke-width="2">
+            <circle cx="12" cy="12" r="5" />
+            <line x1="12" y1="1" x2="12" y2="3" />
+            <line x1="12" y1="21" x2="12" y2="23" />
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+            <line x1="1" y1="12" x2="3" y2="12" />
+            <line x1="21" y1="12" x2="23" y2="12" />
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+          </svg>
+        </button>
+      </li>
+    </ul>
+    <div class="nav-mobile-btn">
+      <button class="theme-toggle" aria-label="Changer le thème">
+        <svg class="icon-sun" viewBox="0 0 24 24" stroke-width="2">
+          <circle cx="12" cy="12" r="5" />
+          <line x1="12" y1="1" x2="12" y2="3" />
+          <line x1="12" y1="21" x2="12" y2="23" />
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+          <line x1="1" y1="12" x2="3" y2="12" />
+          <line x1="21" y1="12" x2="23" y2="12" />
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" stroke-width="2">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+        </svg>
+      </button>
+      <button class="nav-burger" id="navBurger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="recherchebas">
+    <span class="marge">|</span>
+    <p class="">
+      Je suis à la recherche d'un <strong>stage de 3 mois à partir de mars 2027</strong> en montage vidéos
+    </p>
+  </div>
+  <div class="nav-mobile" id="navMobile">
+    <a href="index.html">Accueil</a>
+    <a href="apropos.html">À propos</a>
+    <a href="realisations.html">Réalisations</a>
+    <a href="contacte.html">Contact</a>
+  </div>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="filmstrip top">
+      <div class="filmstrip-track" id="filmTop"></div>
+    </div>
+    <p class="hero-eyebrow">Parlons de ton projet</p>
+    <h1 class="hero-name hero-name--apropos">CONTACT</h1>
+    <div class="filtre"></div>
+    <div class="page-hero-img"><img src="images/VDS2242.jpg" alt=""></div>
+    <div class="filmstrip bottom">
+      <div class="filmstrip-track" id="filmBottom"></div>
+    </div>
+  </div>
+
+  <!-- LAYOUT CONTACT -->
+  <div class="contact-layout">
+
+    <!-- INFOS GAUCHE -->
+    <div class="contact-info reveal">
+      <div class="section-label">Me contacter</div>
+      <h2 class="section-title contact-info-title">Un projet<br>en tête ?</h2>
+      <p>Que ce soit pour un clip, une vidéo d'entreprise, un événement ou une création 3D — décris-moi ton projet et
+        je te réponds rapidement.</p>
+
+      <div class="info-list">
+        <a href="mailto:adrien68190@gmail.com" class="info-item">
+          <div class="info-icon">📧​</div>
+          <div>
+            <div class="info-label">Email</div>
+            <div class="info-val">adrien68190@gmail.com</div>
+          </div>
+        </a>
+        <a href="tel:+33768257781" class="info-item">
+          <div class="info-icon">📱</div>
+          <div>
+            <div class="info-label">Téléphone</div>
+            <div class="info-val">07 68 25 77 81</div>
+          </div>
+        </a>
+        <div class="info-item info-item--static">
+          <div class="info-icon">📍</div>
+          <div>
+            <div class="info-label">Localisation</div>
+            <div class="info-val">France, Alsace</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="social-row">
+        <!-- YouTube -->
+        <a href="https://www.youtube.com/@Stier_Adrien" target="_blank" rel="noopener" class="social-icon-btn"
+          title="YouTube">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1c.5-1.9.5-5.8.5-5.8s0-3.9-.5-5.8ZM9.7 15.5V8.5l6.3 3.5-6.3 3.5Z" />
+          </svg>
+        </a>
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/adrien-stier-monteur-audiovisuel/" target="_blank" rel="noopener"
+          class="social-icon-btn" title="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M20.5 2h-17A1.5 1.5 0 0 0 2 3.5v17A1.5 1.5 0 0 0 3.5 22h17a1.5 1.5 0 0 0 1.5-1.5v-17A1.5 1.5 0 0 0 20.5 2ZM8 19H5v-9h3ZM6.5 8.25A1.75 1.75 0 1 1 8.25 6.5 1.75 1.75 0 0 1 6.5 8.25ZM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0 0 13 14.19a.66.66 0 0 0 0 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 0 1 2.7-1.4c1.55 0 3.36.86 3.36 3.66Z" />
+          </svg>
+        </a>
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/__draxio__/" target="_blank" rel="noopener" class="social-icon-btn"
+          title="Instagram">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069ZM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0Zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324ZM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8Zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881Z" />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- FORMULAIRE DROITE -->
+    <div class="form-card reveal">
+
+      <!-- Formulaire -->
+      <div id="contactForm">
+
+        <div class="form-row">
+          <div class="field">
+            <label for="prenom">Prénom *</label>
+            <input type="text" id="prenom" name="prenom" placeholder="Jean" />
+          </div>
+          <div class="field">
+            <label for="nom">Nom *</label>
+            <input type="text" id="nom" name="nom" placeholder="Dupont" />
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" placeholder="jean@exemple.fr" />
+        </div>
+
+        <div class="field">
+          <label for="sujet">Type de projet *</label>
+          <select id="sujet" name="sujet">
+            <option value="" disabled selected>Choisir un type de projet…</option>
+            <option value="Clip / Court-métrage">Clip / Court-métrage</option>
+            <option value="Vidéo d'événement">Vidéo d'événement</option>
+            <option value="Vidéo de marque / entreprise">Vidéo de marque / entreprise</option>
+            <option value="Réalisations 3D">Réalisations 3D</option>
+            <option value="Prise de vue drone FPV">Prise de vue drone FPV</option>
+            <option value="Montage de rushes fournis">Montage de rushes fournis</option>
+            <option value="Autre">Autre</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label>Budget estimé</label>
+          <div class="budget-grid">
+            <div class="budget-option">
+              <label for="b1">Moins de 500 € <input type="radio" name="budget" id="b1" value="Moins de 500 €" /></label>
+
+            </div>
+            <div class="budget-option">
+              <label for="b2">500 – 1 000 € <input type="radio" name="budget" id="b2" value="500 – 1 000 €" /></label>
+
+            </div>
+            <div class="budget-option">
+              <label for="b3">1 000 – 3 000 € <input type="radio" name="budget" id="b3"
+                  value="1 000 – 3 000 €" /></label>
+
+            </div>
+            <div class="budget-option">
+              <label for="b4">À définir ensemble<input type="radio" name="budget" id="b4"
+                  value="À définir ensemble" /></label>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="field field--mt">
+          <label for="message">Décris ton projet *</label>
+          <textarea id="message" name="message"
+            placeholder="Parle-moi de ton projet : contexte, objectifs, délais souhaités…"></textarea>
+        </div>
+
+        <button class="btn btn-primary form-submit" id="submitBtn" type="button">
+          Envoyer le message →
+        </button>
+
+        <p class="form-error" id="formError"></p>
+      </div>
+
+      <!-- Message succès -->
+      <div class="form-success" id="formSuccess">
+        <div class="success-icon">🎬</div>
+        <h3>Message envoyé !</h3>
+        <p>Merci pour ton message.<br>Je te réponds dès que possible, en général sous 24–48h.</p>
+        <a href="index.html" class="btn btn-outline btn-back">Retour à l'accueil</a>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 Adrien Stier — Monteur Vidéo &amp; Motion Designer · <a href="contacte.html"
+        class="footer-link">Contact</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

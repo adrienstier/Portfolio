@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adrien Stier — Monteur Vidéo</title>
+  <script src="theme-init.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="index.html">
+      <div class="nav-logo">ADRIEN STIER</div>
+    </a>
+    <div class="recherche">
+      <span class="marge">|</span>recherche un stage de 3 mois a partir de mars 2027
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Accueil</a></li>
+      <li><a href="apropos.html">À propos</a></li>
+      <li><a href="realisations.html">Réalisations</a></li>
+      <li><a href="contacte.html">Contact</a></li>
+      <li class="nav-toggle-item">
+        <button class="theme-toggle" id="themeToggle" aria-label="Changer le thème">
+          <svg class="icon-sun" viewBox="0 0 24 24" stroke-width="2">
+            <circle cx="12" cy="12" r="5" />
+            <line x1="12" y1="1" x2="12" y2="3" />
+            <line x1="12" y1="21" x2="12" y2="23" />
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+            <line x1="1" y1="12" x2="3" y2="12" />
+            <line x1="21" y1="12" x2="23" y2="12" />
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+          </svg>
+        </button>
+      </li>
+    </ul>
+    <div class="nav-mobile-btn">
+      <button class="theme-toggle" aria-label="Changer le thème">
+        <svg class="icon-sun" viewBox="0 0 24 24" stroke-width="2">
+          <circle cx="12" cy="12" r="5" />
+          <line x1="12" y1="1" x2="12" y2="3" />
+          <line x1="12" y1="21" x2="12" y2="23" />
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+          <line x1="1" y1="12" x2="3" y2="12" />
+          <line x1="21" y1="12" x2="23" y2="12" />
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" stroke-width="2">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+        </svg>
+      </button>
+      <button class="nav-burger" id="navBurger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="recherchebas">
+    <span class="marge">|</span>
+    <p class="">
+      Je suis à la recherche d'un <strong>stage de 3 mois à partir de mars 2027</strong> en montage vidéos
+    </p>
+  </div>
+  <div class="nav-mobile" id="navMobile">
+    <a href="index.html">Accueil</a>
+    <a href="apropos.html">À propos</a>
+    <a href="realisations.html">Réalisations</a>
+    <a href="contacte.html">Contact</a>
+  </div>
+  <!-- HERO -->
+  <div id="hero">
+    <div class="filmstrip top">
+      <div class="filmstrip-track" id="filmTop"></div>
+    </div>
+    <p class="hero-eyebrow reveal">Monteur Vidéo & Motion Designer</p>
+    <h1 class="hero-name reveal">ADRIEN<br><span>STIER</span></h1>
+    <p class="hero-title reveal">Je donne vie à tes vidéos.</p>
+    <div class="hero-cta reveal">
+      <a href="#contact" class="btn btn-primary">Me contacter</a>
+      <a href="realisations.html" class="btn btn-outline">Voir mes réalisations ↗</a>
+    </div>
+    <div class="filtre"></div>
+    <div class="hero-img"><img src="images/VDS2242.jpg" alt=""></div>
+    <div class="filmstrip bottom">
+      <div class="filmstrip-track" id="filmBottom"></div>
+    </div>
+  </div>
+
+  <!-- À PROPOS (résumé) -->
+  <section id="about">
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <div class="section-label">À propos</div>
+        <h2 class="section-title">Créer,<br>Raconter,<br>Harmoniser.</h2>
+        <p>Passionné par l'image depuis toujours, je réalise et monte des vidéos — du script à l'export — pour donner du
+          sens et de l'émotion à chaque projet.</p>
+        <p>Drone FPV, motion design, modélisation 3D : j'aime explorer tous les outils qui servent une histoire.</p>
+        <a href="apropos.html" class="btn btn-outline btn-about">En savoir plus →</a>
+      </div>
+      <div class="about-stats reveal">
+        <div class="stat-card">
+          <div class="stat-num">EDIT</div>
+          <div class="stat-desc">Montage &amp; post-prod</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">3D</div>
+          <div class="stat-desc">Blender · Motion · Compo</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">FPV</div>
+          <div class="stat-desc">Pilote de drone cinématique</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">B1</div>
+          <div class="stat-desc">Anglais + ETLV technique</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEASER RÉALISATIONS -->
+  <div id="teaser-realisations">
+    <div class="inner">
+      <p class="section-label reveal">Réalisations</p>
+      <h2 class="section-title reveal">Ce que<br>je crée.</h2>
+      <div class="teaser-grid reveal">
+
+        <a href="realisations.html#videos" class="teaser-card">
+          <div class="teaser-thumb teaser-carousel" data-carousel="videos">
+            <div class="carousel-wrapper"></div>
+            <div class="carousel-dots"></div>
+            <span class="teaser-tag">Montage Vidéo</span>
+          </div>
+          <div class="teaser-content">
+            <div class="teaser-cat">Montage Vidéo</div>
+            <div class="teaser-desc">Clips, courts-métrages, vidéos de marque — du tournage au rendu final.</div>
+          </div>
+          <div class="teaser-arrow">↗</div>
+        </a>
+
+        <a href="realisations.html#blender" class="teaser-card">
+          <div class="teaser-thumb blender-carousel" data-carousel="blender">
+            <div class="carousel-wrapper"></div>
+            <div class="carousel-dots"></div>
+            <span class="teaser-tag">Blender</span>
+          </div>
+          <div class="teaser-content">
+            <div class="teaser-cat">Créations Blender</div>
+            <div class="teaser-desc">Modélisation 3D, animations et rendus réalistes avec Blender.</div>
+          </div>
+          <div class="teaser-arrow">↗</div>
+        </a>
+
+        <a href="realisations.html#crashtests" class="teaser-card">
+          <div class="teaser-thumb teaser-carousel" data-carousel="crashtests">
+            <div class="carousel-wrapper"></div>
+            <div class="carousel-dots"></div>
+            <span class="teaser-tag">Crash Tests</span>
+          </div>
+          <div class="teaser-content">
+            <div class="teaser-cat">Crash Tests</div>
+            <div class="teaser-desc">Expérimentations, tests de montage, effets et idées en cours.</div>
+          </div>
+          <div class="teaser-arrow">↗</div>
+        </a>
+
+      </div>
+      <div class="section-cta reveal">
+        <a href="realisations.html" class="btn btn-primary">Voir toutes les réalisations</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <p class="section-label reveal">Contact</p>
+    <h2 class="section-title reveal">Travaillons<br>ensemble.</h2>
+    <p class="section-blurb reveal">
+      Tu as des images à sublimer, une histoire à raconter, un rythme à donner ? Contacte-moi, parlons-en.
+    </p>
+    <div class="reveal"> <a href="contacte.html" class="btn btn-primary">Travailler ensemble</a></div>
+    <p class="contact-location reveal">
+      France , Alsace &nbsp;·&nbsp; 07 68 25 77 81
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 Adrien Stier — Monteur Vidéo &amp; Motion Designer</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

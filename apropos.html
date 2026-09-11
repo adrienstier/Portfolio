@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>À propos — Adrien Stier</title>
+  <script src="theme-init.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+
+  <nav>
+    <a href="index.html">
+      <div class="nav-logo">ADRIEN STIER</div>
+    </a>
+    <div class="recherche"><span class="marge">|</span>recherche un stage de 3 mois a partir de mars 2027</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="apropos.html" class="active">À propos</a></li>
+      <li><a href="realisations.html">Réalisations</a></li>
+      <li><a href="contacte.html">Contact</a></li>
+      <li class="nav-toggle-item">
+        <button class="theme-toggle" id="themeToggle" aria-label="Changer le thème">
+          <svg class="icon-sun" viewBox="0 0 24 24" stroke-width="2">
+            <circle cx="12" cy="12" r="5" />
+            <line x1="12" y1="1" x2="12" y2="3" />
+            <line x1="12" y1="21" x2="12" y2="23" />
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+            <line x1="1" y1="12" x2="3" y2="12" />
+            <line x1="21" y1="12" x2="23" y2="12" />
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+          </svg>
+        </button>
+      </li>
+    </ul>
+    <div class="nav-mobile-btn">
+      <button class="theme-toggle" aria-label="Changer le thème">
+        <svg class="icon-sun" viewBox="0 0 24 24" stroke-width="2">
+          <circle cx="12" cy="12" r="5" />
+          <line x1="12" y1="1" x2="12" y2="3" />
+          <line x1="12" y1="21" x2="12" y2="23" />
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+          <line x1="1" y1="12" x2="3" y2="12" />
+          <line x1="21" y1="12" x2="23" y2="12" />
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" stroke-width="2">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+        </svg>
+      </button>
+      <button class="nav-burger" id="navBurger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="recherchebas">
+    <span class="marge">|</span>
+    <p class="">
+      Je suis à la recherche d'un <strong>stage de 3 mois à partir de mars 2027</strong> en montage vidéos
+    </p>
+  </div>
+  <div class="nav-mobile" id="navMobile">
+    <a href="index.html">Accueil</a>
+    <a href="apropos.html">À propos</a>
+    <a href="realisations.html">Réalisations</a>
+    <a href="contacte.html">Contact</a>
+  </div>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="filmstrip top">
+      <div class="filmstrip-track" id="filmTop"></div>
+    </div>
+    <p class="hero-eyebrow">Adrien Stier</p>
+    <h1 class="hero-name hero-name--apropos">À<br><span>PROPOS</span></h1>
+    <div class="filtre"></div>
+    <div class="page-hero-img"><img src="images/VDS2242.jpg" alt=""></div>
+    <div class="filmstrip bottom">
+      <div class="filmstrip-track" id="filmBottom"></div>
+    </div>
+  </div>
+
+  <!-- BIO -->
+  <section id="bio">
+    <div class="bio-grid">
+      <div class="reveal">
+        <p class="section-label">Qui suis-je ?</p>
+        <h2 class="section-title">L'image<br>comme<br>langage.</h2>
+        <p class="bio-p">Salut, moi c'est Adrien — monteur vidéo, créateur 3D et pilote FPV basé en Alsace.</p>
+        <p class="bio-p">Depuis que je suis gamin, j'ai toujours eu besoin de créer quelque chose. Longtemps ça a été le
+          sport — j'ai à peu près tout essayé, du karaté au handball en passant par la natation, le tennis et maintenant
+          la randonné et le bivouac. Ce que j'y ai appris : la discipline, l'adaptation, et l'envie de toujours
+          progresser. Aujourd'hui ces mêmes réflexes, je les applique à la vidéo.</p>
+        <p class="bio-p">Parce que c'est ça mon truc — raconter des histoires avec des images. Une bonne coupe, une
+          musique qui tombe au bon moment, un plan drone qui donne le vertige : ce sont ces détails qui transforment un
+          projet en quelque chose qu'on regarde et qu'on ressent vraiment.</p>
+        <p class="bio-p">Je travaille sur des clips, des vidéos de marque, des courts-métrages, des créations 3D — du
+          script jusqu'à l'export. Chaque étape compte, et j'y apporte le même soin que sur le terrain : concentration,
+          rigueur, et un œil sur l'ensemble.</p>
+        <p class="bio-p">Actuellement en formation BUT MMI, je continue d'explorer, d'apprendre et de repousser les
+          limites de ce que je sais faire.</p>
+      </div>
+
+      <!-- PHOTO + STATS -->
+      <div class="profile-block reveal">
+        <div class="profile-photo-wrap">
+          <div class="photoprofile"><img src="images/photo_profil.png" alt="Adrien Stier" class="profile-photo" /></div>
+          <div class="profile-glow"></div>
+        </div>
+        <div class="about-stats reveal">
+          <div class="stat-card">
+            <div class="stat-num">EDIT</div>
+            <div class="stat-desc">Montage &amp; post-prod</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">3D</div>
+            <div class="stat-desc">Blender · Motion · Compo</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">FPV</div>
+            <div class="stat-desc">Pilote de drone cinématique</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">B1</div>
+            <div class="stat-desc">Anglais + ETLV technique</div>
+          </div>
+        </div>
+                <p class="stage-note">
+          Je suis à la recherche d'un <strong>stage de 3 mois à partir de mars 2027</strong>
+          en montage vidéos
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPÉTENCES -->
+  <div id="skills">
+    <div class="inner">
+      <p class="section-label reveal">Compétences</p>
+      <h2 class="section-title reveal">Ma boîte<br>à outils</h2>
+      <div class="skills-grid reveal">
+
+        <!-- DaVinci Resolve — logo SVG inline -->
+        <div class="skill-pill">
+          <div class="skill-icon skill-icon-img">
+            <div class="skill-icon-logo"><img src="images/log_DR.png" alt=""></div>
+          </div>
+          <div>
+            <div class="skill-name">DaVinci Resolve</div>
+            <div class="skill-type">Montage | Etalonnage | Motion design</div>
+          </div>
+        </div>
+
+        <div class="skill-pill">
+          <div class="skill-icon skill-icon--ae">Ae</div>
+          <div>
+            <div class="skill-name">After Effects</div>
+            <div class="skill-type">Motion design</div>
+          </div>
+        </div>
+        <div class="skill-pill">
+          <div class="skill-icon skill-icon--ps">Ps</div>
+          <div>
+            <div class="skill-name">Photoshop</div>
+            <div class="skill-type">Retouche | compositing</div>
+          </div>
+        </div>
+
+        <!-- Blender — vrai logo -->
+        <div class="skill-pill">
+          <div class="skill-icon skill-icon-img">
+            <div class="skill-icon-logo"><img src="images/blender_icon_512x512.png" alt="Blender" /></div>
+          </div>
+          <div>
+            <div class="skill-name">Blender</div>
+            <div class="skill-type">Modélisation 3D</div>
+          </div>
+        </div>
+
+        <div class="skill-pill">
+          <div class="skill-icon skill-icon-img">​🎥​
+          </div>
+          <div>
+            <div class="skill-name">Réalisation vidéo</div>
+            <div class="skill-type">Script | Tournage | Montage</div>
+          </div>
+        </div>
+        <div class="skill-pill">
+          <div class="skill-icon skill-icon-img">🕹️​
+          </div>
+          <div>
+            <div class="skill-name">Drone FPV</div>
+            <div class="skill-type">Prises de vue aériennes | Freestyle</div>
+          </div>
+        </div>
+        <div class="skill-pill">
+          <div class="skill-icon skill-icon-img">✏️​
+          </div>
+          <div>
+            <div class="skill-name">Dessin digital</div>
+            <div class="skill-type">Illustration | design</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- FORMATION & EXPÉRIENCE -->
+  <section id="formation">
+    <div class="formation-grid">
+      <div class="reveal">
+        <p class="section-label">Formation | Expérience</p>
+        <h2 class="section-title">Parcours</h2>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-date">2024 → 2027</div>
+            <div class="tl-title">BUT MMI</div>
+            <div class="tl-sub">Métiers du Multimédia et de l'Internet<br>Présence en ligne · Communication ·
+              Réalisation vidéo (script, découpage technique, tournage, montage)</div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-date">2023</div>
+            <div class="tl-title">Baccalauréat STI2D</div>
+            <div class="tl-sub">Sciences et Technologies de l'Industrie et du Développement Durable</div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-date">2020</div>
+            <div class="tl-title">Brevet des collèges</div>
+            <div class="tl-sub">Diplôme national du brevet</div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal">
+        <h2 class="section-title section-title--ghost">—</h2>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-date">2023 → 2024</div>
+            <div class="tl-title">Service Civique</div>
+            <div class="tl-sub">École Charles Kienzl<br>Assistant éducatif · Animateur d'ateliers · Assistant
+              administratif<br>
+            </div>
+          </div>
+        </div>
+        <p class="section-label section-label--mt">Langues</p>
+        <div class="timeline timeline--mt">
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-title tl-title--sm">Français</div>
+            <div class="tl-sub">Langue maternelle</div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-title tl-title--sm">Anglais B1</div>
+            <div class="tl-sub">+ ETLV domaine technique</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CENTRES D'INTÉRÊT -->
+  <div id="hobbies">
+    <div class="inner">
+      <p class="section-label reveal">Centres d'intérêt</p>
+      <h2 class="section-title reveal">Ce qui<br>m'inspire.</h2>
+      <div class="interests-grid reveal">
+        <div class="interest-tag">🏔️ Randonnée / Bivouac</div>
+        <div class="interest-tag">🎬 Montage vidéo</div>
+        <div class="interest-tag">🕹️ Drone FPV</div>
+        <div class="interest-tag">✒️ Dessin digital</div>
+        <div class="interest-tag">🎸 Guitare</div>
+        <div class="interest-tag">🎣 Pêche</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT CTA -->
+  <div class="cta-contact">
+    <p class="section-label reveal">Contact</p>
+    <h2 class="section-title reveal">Travaillons<br>ensemble.</h2>
+    <p class="section-blurb reveal">
+      Tu as des images à sublimer, une histoire à raconter, un rythme à donner ? Contacte-moi, parlons-en.
+    </p>
+    <div class="reveal"> <a href="contacte.html" class="btn btn-primary">Travailler ensemble</a></div>
+    <p class="contact-location reveal">France, Alsace &nbsp;·&nbsp; 07 68 25
+      77 81</p>
+  </div>
+
+  <footer>
+    <p>© 2026 Adrien Stier — Monteur Vidéo &amp; Motion Designer · <a href="contacte.html" class="footer-link">Me
+        contacter</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

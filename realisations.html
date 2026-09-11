@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Réalisations — Adrien Stier</title>
+  <script src="theme-init.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+
+  <nav>
+    <a href="index.html">
+      <div class="nav-logo">ADRIEN STIER</div>
+    </a>
+    <div class="recherche"><span class="marge">|</span>recherche un stage de 3 mois a partir de mars 2027</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="apropos.html">À propos</a></li>
+      <li><a href="realisations.html" class="active">Réalisations</a></li>
+      <li><a href="contacte.html">Contact</a></li>
+      <li class="nav-toggle-item">
+        <button class="theme-toggle" id="themeToggle" aria-label="Changer le thème">
+          <svg class="icon-sun" viewBox="0 0 24 24" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+      </li>
+    </ul>
+    <div class="nav-mobile-btn">
+      <button class="theme-toggle" aria-label="Changer le thème">
+        <svg class="icon-sun" viewBox="0 0 24 24" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="nav-burger" id="navBurger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="recherchebas">
+    <span class="marge">|</span>
+    <p class="">
+      Je suis à la recherche d'un <strong>stage de 3 mois à partir de mars 2027</strong> en montage vidéos
+    </p>
+  </div>
+  <div class="nav-mobile" id="navMobile">
+    <a href="index.html">Accueil</a>
+    <a href="apropos.html">À propos</a>
+    <a href="realisations.html">Réalisations</a>
+    <a href="contacte.html">Contact</a>
+  </div>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="filmstrip top">
+      <div class="filmstrip-track" id="filmTop"></div>
+    </div>
+    <p class="hero-eyebrow">Portfolio créatif</p>
+    <h1 class="hero-name hero-name--real">MES<br><span>RÉALISATIONS</span></h1>
+    <div class="filtre"></div>
+    <div class="page-hero-img"><img src="images/VDS2242.jpg" alt=""></div>
+    <div class="filmstrip bottom">
+      <div class="filmstrip-track" id="filmBottom"></div>
+    </div>
+  </div>
+
+  <!-- ONGLETS -->
+  <div class="tabs-bar">
+    <div class="tabs-inner">
+      <button class="tab-btn active" data-tab="videos">Montage Vidéo</button>
+      <button class="tab-btn" data-tab="blender">Blender</button>
+      <button class="tab-btn" data-tab="crashtests">Crash Tests</button>
+      <button class="tab-btn" data-tab="plus">+ À venir</button>
+    </div>
+  </div>
+
+  <!-- SECTION VIDÉOS -->
+  <section id="videos" class="tab-section active-tab">
+    <p class="section-label">Montage Vidéo</p>
+    <h2 class="section-title reveal">Clips &amp;<br>Projets.</h2>
+    <p class="tab-desc reveal">
+      Du tournage au rendu final — voici mes projets vidéo : clips, vidéos de marque, courts-métrages.
+    </p>
+    <div class="real-grid reveal" id="videosGrid">
+      <!-- Les cartes seront injectées dynamiquement par `realisations.js` -->
+    </div>
+    <div class="section-cta reveal">
+      <a href="https://www.youtube.com/@Stier_Adrien" target="_blank" rel="noopener" class="btn btn-primary" id="youtubeChannelBtn">
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1c.5-1.9.5-5.8.5-5.8s0-3.9-.5-5.8ZM9.7 15.5V8.5l6.3 3.5-6.3 3.5Z" />
+        </svg>
+        Voir ma chaîne YouTube
+      </a>
+    </div>
+  </section>
+
+  <!-- SECTION BLENDER -->
+  <section id="blender" class="tab-section">
+    <p class="section-label">Créations Blender</p>
+    <h2 class="section-title reveal">3D &amp;<br>Animation.</h2>
+    <p class="tab-desc reveal">
+      Modélisations, animations et rendus réalisés avec Blender. Éclairage, matériaux, simulation — j'explore les
+      possibilités de la 3D.
+    </p>
+    <div class="real-grid reveal" id="blenderGrid">
+      <!-- Cartes 3D injectées dynamiquement depuis realisations.js -->
+    </div>
+  </section>
+
+  <!-- SECTION CRASH TESTS -->
+  <section id="crashtests" class="tab-section">
+    <p class="section-label">Crash Tests</p>
+    <h2 class="section-title reveal">Expéri-<br>mentations.</h2>
+    <p class="tab-desc reveal">
+      Des petits montages de test, des idées en cours, des effets explorés. C'est le labo — pas forcément fini, mais
+      toujours sincère.
+    </p>
+    <div class="real-grid reveal" id="crashGrid">
+      <!-- Cartes Crash Tests injectées dynamiquement par realisations.js -->
+    </div>
+  </section>
+
+  <!-- SECTION À VENIR -->
+  <section id="plus" class="tab-section">
+    <div class="coming-soon-wrap reveal">
+      <div class="coming-soon-icon">🌀</div>
+      <h2 class="section-title coming-soon-title">En suspens.</h2>
+      <p class="coming-soon-desc">
+        Cette section attend ma prochaine passion.<br>
+        <em class="coming-soon-em">À bientôt pour la suite…</em>
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT CTA -->
+  <div class="cta-contact">
+    <p class="section-label reveal">Contact</p>
+    <h2 class="section-title reveal">Travaillons<br>ensemble.</h2>
+    <p class="section-blurb reveal">
+      Tu as des images à sublimer, une histoire à raconter, un rythme à donner ? Contacte-moi, parlons-en.
+    </p>
+    <div class="reveal"> <a href="contacte.html" class="btn btn-primary">Travailler ensemble</a></div>
+    <p class="contact-location reveal">France, Alsace &nbsp;·&nbsp; 07 68 25
+      77 81</p>
+  </div>
+
+  <footer>
+    <p>© 2026 Adrien Stier — Monteur Vidéo &amp; Motion Designer · <a href="contacte.html" class="footer-link">Me contacter</a></p>
+  </footer>
+
+  <script defer src="realisations.js"></script>
+  <script defer src="script.js"></script>
+</body>
+
+</html>
